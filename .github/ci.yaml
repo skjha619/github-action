@@ -1,0 +1,17 @@
+name: CI pipeline  # <-- name of the workflow shown in GitHub UI
+
+on:
+  push:             # trigger on every push to any branch
+    # Optionally: you can restrict to specific branches like main:
+    # branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: print a message
+        run: echo "Shankar"
