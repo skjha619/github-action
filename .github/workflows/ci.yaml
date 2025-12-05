@@ -10,4 +10,6 @@ jobs:
         run: date
       - name: printing git var
         run: echo "${{ runner.os }}"
+      - name: print workflow event
+        run: echo "${{github.event_name}}"
         
