@@ -5,7 +5,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo firstname
-              run: echo"shankar"
+              run: echo "shankar"
     job2:
         needs: job1
         runs-on: ubuntu-latest
