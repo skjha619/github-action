@@ -1,5 +1,5 @@
 name: hello-ci
-on: push
+on: pull_request
 jobs:
     builds:
         runs-on: ubuntu-latest

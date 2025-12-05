@@ -1,5 +1,8 @@
 name: CI
-on: pull_request
+on: push
+env:
+  APP_ENV: production
+  Log_Level: debug
 jobs:
   build:
     runs-on: ubuntu-latest
