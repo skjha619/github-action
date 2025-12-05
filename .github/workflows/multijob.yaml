@@ -5,10 +5,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: echo firstname
-              run: ech"shankar"
+              run: echo"shankar"
     job2:
         needs: job1
         runs-on: ubuntu-latest
         steps:
             - name: echo lastname
               run: echo "jha"
+            - name: show secret value
+              run: echo "${{secrets.USERNAME}}"
