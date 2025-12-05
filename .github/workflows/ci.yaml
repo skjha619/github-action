@@ -17,5 +17,5 @@ jobs:
         run: echo "${{github.event_name}}"
       - name: printing env var
         run: |
-           echo "$APP_ENV, $LOG_LEVEL"
+           echo "${{APP_ENV}} ${{LOG_LEVEL}}"
         
