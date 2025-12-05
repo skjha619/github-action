@@ -9,4 +9,5 @@ jobs:
       - name: printing date
         run: date
       - name: printing git var
-        run: echo "${{runnner.os}}"
+        run: echo "${{ runner.os }}"
+        
