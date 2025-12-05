@@ -1,8 +1,8 @@
-name: ci
+name: CI
 on: push
 jobs:
+  runs-on: ubuntu-latest
   build:
-    runs-on: ubuntu-latest
     steps:
-      - name: print msg
-        run: echo :"shankar"
+      - name: printing name
+        run: echo "Shankar"
