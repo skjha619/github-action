@@ -1,0 +1,13 @@
+name: multijob
+on: push
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo firstname
+              run: echo "shankar"
+    job2:
+        runs-on: ubuntu-latest
+        steps:
+            - name: echo lastname
+              run: echo "jha"
