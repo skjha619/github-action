@@ -15,4 +15,7 @@ jobs:
         run: echo "${{ runner.os }}"
       - name: print workflow event
         run: echo "${{github.event_name}}"
+      - name: printing env var
+        run: |
+           echo "$APP_ENV, $LOG_LEVEL"
         
