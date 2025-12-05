@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: printing name
-        run: echo "Shankar"
+        run: echo "Shankar Jha"
       - name: printing date
         run: date
       - name: printing git var
