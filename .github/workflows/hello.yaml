@@ -1,0 +1,8 @@
+name: hello-ci
+on: push
+jobs:
+    builds:
+        runs-on: ubuntu-latest
+        steps:
+            - name: printing name
+              run: "shankar in hello file"
