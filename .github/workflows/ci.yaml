@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: printing name
         run: echo "Shankar"
+      - name: printing date
+        run: date
+      - name: printing git var
+        run: echo "${{runnner.os}}"
